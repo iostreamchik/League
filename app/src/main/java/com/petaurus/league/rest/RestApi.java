@@ -13,7 +13,7 @@ public interface RestApi {
   String PROTOCOL_VERSION = "v1";
   String BASE_URL = String.format("https://api.football-data.org/%s/", PROTOCOL_VERSION);
 
-  String API_KEY = "c1fced87b9624809b2b3b35ac9eed8d5";
+  String API_KEY = "a69031e6d14e4967bf4a9959d5742bd9";
 
 
   Season getSeason(long id) throws Exception;
